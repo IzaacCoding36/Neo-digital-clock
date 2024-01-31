@@ -1,0 +1,64 @@
+html {margin: 0;
+      padding: 0;
+      max-height: 100%;
+      max-width: 100%;
+      display: flex;
+      background: black;
+      background-image: url(img/Background.png);
+}
+
+@keyframes glow { 0% {box-shadow: 9px 0px 30px purple;}
+                  50% {box-shadow: 9px 0px 30px magenta;}
+                  100% {box-shadow: 9px 0px 30px purple;}
+}
+
+.container {font-family: "Arial", Helvetica, sans-serif;
+            padding: 30px;
+            color: white;
+            font-weight: bold;
+            position: absolute;
+            top: 40%;
+            right: 50%;
+            transform: translate(50%, -50%);
+            font-size: 50px;
+            white-space: nowrap;
+            background-color: #9a9a9a9a;
+            border-radius: 50px;
+            box-shadow: 0px 0px 20px purple;
+            text-shadow: 0px 5px 20px black;
+            animation-name: glow;
+            animation-delay: 1s;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+}
+
+body {margin: 0;
+      padding: 0;
+      background-color: black;
+}
+
+.button {position: relative; top: -50px;
+         background-color: black;
+         padding: 3px;
+         color: white;
+         border: solid 2px magenta;
+}
+
+.button:hover {border: solid 2px cyan;
+               cursor: pointer;
+}
+
+a {text-decoration: none;
+   color: white;
+}
+
+.title {color: white;
+        font-size: 20px;
+        position: relative; top: -50px;
+}
+
+@media screen and (min-width: 900px){
+  .container {font-size: 150px;}
+  .button {padding: 10px;}
+  .title {font-size: 30px;}
+}
