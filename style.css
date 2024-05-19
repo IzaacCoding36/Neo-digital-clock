@@ -43,10 +43,12 @@ body {margin: 0;
          color: white;
          border-radius: 50px;
          border: solid 2px magenta;
+         transition: border 0.3s;
 }
 
 .button:hover {border: solid 2px cyan;
                cursor: pointer;
+               transition: border 0.3s;
 }
 
 a {text-decoration: none;
