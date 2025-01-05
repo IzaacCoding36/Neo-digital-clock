@@ -4,6 +4,7 @@ html {margin: 0;
       max-width: 100%;
       display: flex;
       background: black;
+      background-color: black;
       background-image: url(img/Background.png);
       cursor: default;
 }
