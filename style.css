@@ -60,7 +60,7 @@ a {text-decoration: none; color: white;}
 }
 
 @media screen and (max-width: 900px){
-  .container {font-size: 35px; padding: 50px;}
+  .container {font-size: 45px; padding: 40px;}
   .button {padding: 10px;}
   .title {font-size: 30px;}
 }
